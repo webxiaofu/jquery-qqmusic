@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>大尾巴狼的需求</title>
+</head>
+<body>
+    <input type="text" id="asistence" />
+    <script type="text/javascript">
+    var a=["你点了一下按钮","你又点了一下按钮","你点了第三下了"];
+    var flag=0;
+     function giveubitch(){
+         if(flag>2){
+            flag=0;
+        }
+            document.getElementById("asistence").value=a[flag];
+        flag++;
+ }
+    </script>
+    <input type="button" value="点我有惊喜哦" onclick="giveubitch()" />
+</body>
+</html>
